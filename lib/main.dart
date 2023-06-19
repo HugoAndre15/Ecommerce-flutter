@@ -1,7 +1,9 @@
-import 'package:ecommerce/login.dart';
-import 'package:flutter/foundation.dart';
+import 'pages/homePages/home.dart';
+import 'pages/signUp.dart';
+import 'pages/login.dart';
+import 'pages/categoriesPage/categoriesList.dart';
+import 'pages/forgotPassword.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,8 +29,16 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.grey,
       ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const SignUpPage(),
+        '/loginpage': (context) => const LoginPage(),
+        '/forgotpassword': (context) => const ForgotPasswordPage(),
+        '/home': (context) => const HomePage(),
+        '/categoriesList':(context) => const CategoriesListPage()
+      },
       //home: const Page(title: 'Connexion'),
-      home: LoginPage(),
+      // home: HomePage(),
     );
   }
 }
