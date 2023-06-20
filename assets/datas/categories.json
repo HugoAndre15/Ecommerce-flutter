@@ -2,10 +2,10 @@
   "womenCategories": [
     {
       "id": "1",
-      "name": "New",
-      "imageSrc": "assets/images/png/new.png",
+      "name": "nouvelle",
+      "imageSrc": "assets/images/png/nouvelle.png",
       "catalog": {
-        "title": "women's news clothes",
+        "title": "women's news vetement",
         "type": ["pullover", "t-shirt", "crop-top", "trousers", "jogging"],
         "items": [
           {
@@ -34,10 +34,10 @@
     },
     {
       "id": "2",
-      "name": "Clothes",
-      "imageSrc": "assets/images/png/clothes.png",
+      "name": "vetement",
+      "imageSrc": "assets/images/png/vetement.png",
       "catalog": {
-        "title": "women's clothes",
+        "title": "women's vetement",
         "type": ["pullover", "t-shirt", "crop-top", "trousers", "jogging"],
         "items": [
           {
@@ -66,10 +66,10 @@
     },
     {
       "id": "3",
-      "name": "Shoes",
-      "imageSrc": "assets/images/png/shoes.png",
+      "name": "chaussure",
+      "imageSrc": "assets/images/png/chaussure.png",
       "catalog": {
-        "title": "women's shoes",
+        "title": "women's chaussure",
         "type": ["pullover", "t-shirt", "crop-top", "trousers", "jogging"],
         "items": [
           {
@@ -99,7 +99,7 @@
     {
       "id": "4",
       "name": "Accesories",
-      "imageSrc": "assets/images/png/accesories.png",
+      "imageSrc": "assets/images/png/accessoire.png",
       "catalog": {
         "title": "women's accesories",
         "type": ["pullover", "t-shirt", "crop-top", "trousers", "jogging"],
@@ -167,45 +167,45 @@
   "menCategories": [
     {
       "id": "1",
-      "name": "New",
-      "imageSrc": "assets/images/png/accesories.png"
+      "name": "nouvelle",
+      "imageSrc": "assets/images/png/accessoire.png"
     },
     {
       "id": "2",
       "name": "Hoodies",
-      "imageSrc": "assets/images/png/accesories.png"
+      "imageSrc": "assets/images/png/accessoire.png"
     },
     {
       "id": "3",
-      "name": "shoes",
-      "imageSrc": "assets/images/png/accesories.png"
+      "name": "chaussure",
+      "imageSrc": "assets/images/png/accessoire.png"
     },
     {
       "id": "4",
       "name": "trousers",
-      "imageSrc": "assets/images/png/accesories.png"
+      "imageSrc": "assets/images/png/accessoire.png"
     }
   ],
   "kidsCategories": [
     {
       "id": "1",
-      "name": "New",
-      "imageSrc": "assets/images/png/accesories.png"
+      "name": "nouvelle",
+      "imageSrc": "assets/images/png/accessoire.png"
     },
     {
       "id": "2",
       "name": "T-shirt",
-      "imageSrc": "assets/images/png/accesories.png"
+      "imageSrc": "assets/images/png/accessoire.png"
     },
     {
       "id": "3",
       "name": "socks",
-      "imageSrc": "assets/images/png/accesories.png"
+      "imageSrc": "assets/images/png/accessoire.png"
     },
     {
       "id": "4",
       "name": "accesories",
-      "imageSrc": "assets/images/png/accesories.png"
+      "imageSrc": "assets/images/png/accessoire.png"
     }
   ]
 }
