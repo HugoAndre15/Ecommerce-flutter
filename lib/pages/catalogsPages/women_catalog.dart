@@ -10,14 +10,14 @@ class WomenCatalogPage extends StatefulWidget {
 
 class _WomenCatalogPageState extends State<WomenCatalogPage> {
   final Widget backArrow = SvgPicture.asset(
-    'assets/images/svg/left-arrow.svg',
+    'assets/images/svg/left-fleche.svg',
     // semanticsLabel: 'Retour en arrière',
     width: 25,
     height: 25,
     // fit: BoxFit.scaleDown,
   );
-  final Widget filter = SvgPicture.asset(
-    'assets/images/svg/filter.svg',
+  final Widget filtre = SvgPicture.asset(
+    'assets/images/svg/filtre.svg',
     // semanticsLabel: 'Retour en arrière',
     width: 15,
     height: 15,
@@ -31,7 +31,7 @@ class _WomenCatalogPageState extends State<WomenCatalogPage> {
     // fit: BoxFit.scaleDown,
   );
   final Widget sortArrow = SvgPicture.asset(
-    'assets/images/svg/arrow-sort.svg',
+    'assets/images/svg/fleche-sort.svg',
     // semanticsLabel: 'Retour en arrière',
     width: 20,
     height: 20,
@@ -136,7 +136,7 @@ class _WomenCatalogPageState extends State<WomenCatalogPage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Row(
-                        children: [filter, const Text("Filter")],
+                        children: [filtre, const Text("Filter")],
                       ),
                       Row(
                         children: [sortArrow, const Text("Price")],

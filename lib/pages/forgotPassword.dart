@@ -10,7 +10,7 @@ class ForgotPasswordPage extends StatefulWidget {
 
 class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
   final Widget backArrow = SvgPicture.asset(
-    'assets/images/svg/left-arrow.svg',
+    'assets/images/svg/left-fleche.svg',
     // semanticsLabel: 'Retour en arrière',
     width: 25,
     height: 25,

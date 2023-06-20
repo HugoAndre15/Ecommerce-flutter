@@ -12,7 +12,7 @@ class SignUpPage extends StatefulWidget {
 
 class _SignUpPageState extends State<SignUpPage> {
   final Widget backArrow = SvgPicture.asset(
-    'assets/images/svg/left-arrow.svg',
+    'assets/images/svg/left-fleche.svg',
     // semanticsLabel: 'Retour en arrière',
     width: 25,
     height: 25,
@@ -20,7 +20,7 @@ class _SignUpPageState extends State<SignUpPage> {
   );
 
   final Widget redRightArrow = SvgPicture.asset(
-    'assets/images/svg/red-right-arrow.svg',
+    'assets/images/svg/fleche-rouge-droite.svg',
     width: 15,
     fit: BoxFit.scaleDown,
   );

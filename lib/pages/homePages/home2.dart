@@ -9,7 +9,7 @@ class HomePage2 extends StatefulWidget {
 }
 
 final Widget newCollection = Image.asset(
-  'assets/images/png/newCollection.png',
+  'assets/images/png/nouvelleCollection.png',
   width: double.infinity,
   fit: BoxFit.cover,
   // semanticsLabel: 'Retour en arrière',
@@ -21,7 +21,7 @@ final Widget mensHoodies = Image.asset(
   // semanticsLabel: 'Retour en arrière',
 );
 final Widget black = Image.asset(
-  'assets/images/png/black.png',
+  'assets/images/png/noir.png',
   width: double.infinity,
   fit: BoxFit.cover,
   // semanticsLabel: 'Retour en arrière',
