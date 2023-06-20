@@ -31,18 +31,18 @@ class _HomePageState extends State<HomePage> {
   final Widget favorite = ColorFiltered(
     colorFilter: const ColorFilter.mode(Colors.red, BlendMode.srcIn),
     child: SvgPicture.asset(
-      'assets/images/svg/heart.svg',
+      'assets/images/svg/coeur.svg',
       width: 10,
     ),
   );
 
-  final Widget star = SvgPicture.asset(
-    'assets/images/svg/star.svg',
+  final Widget etoile = SvgPicture.asset(
+    'assets/images/svg/etoile.svg',
     width: 12,
   );
 
-  final Widget starFilled = SvgPicture.asset(
-    'assets/images/svg/starFilled.svg',
+  final Widget etoileRemplie = SvgPicture.asset(
+    'assets/images/svg/etoileRemplie.svg',
     width: 12,
   );
   @override
@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                 const Positioned(
                   bottom: 10.0,
                   left: 10.0,
-                  child: Text('Street Clothes',
+                  child: Text('Street vetement',
                       style: TextStyle(
                           fontSize: 35,
                           fontWeight: FontWeight.bold,
@@ -147,15 +147,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',
@@ -233,15 +233,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',
@@ -319,15 +319,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',
@@ -405,15 +405,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',
@@ -520,15 +520,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',
@@ -606,15 +606,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',
@@ -692,15 +692,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',
@@ -778,15 +778,15 @@ class _HomePageState extends State<HomePage> {
                                   children: [
                                     Row(
                                       children: [
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        starFilled,
+                                        etoileRemplie,
                                         const SizedBox(width: 3),
-                                        star
+                                        etoile
                                       ],
                                     ),
                                     const Text('Dorothy Perkins',

@@ -18,17 +18,17 @@ final Widget homeIcon = SvgPicture.asset(
   height: 30,
 );
 final Widget cartIcon = SvgPicture.asset(
-  'assets/images/svg/cart.svg',
+  'assets/images/svg/panier.svg',
   width: 30,
   height: 30,
 );
 final Widget bagIcon = SvgPicture.asset(
-  'assets/images/svg/bag.svg',
+  'assets/images/svg/sac.svg',
   width: 30,
   height: 30,
 );
 final Widget heartIcon = SvgPicture.asset(
-  'assets/images/svg/heart.svg',
+  'assets/images/svg/coeur.svg',
   width: 30,
   height: 30,
 );
@@ -91,7 +91,7 @@ class _NavigationPageState extends State<NavigationPage> {
                           )
                         }),
                 IconBottomBar(
-                    text: "bag",
+                    text: "sac",
                     icon: Icons.shopping_bag,
                     selectedIcon: Icons.shopping_bag_outlined,
                     selected: _currentIndex == 2,
